@@ -1,0 +1,17 @@
+description: Ultralytics onpar_v3 model trained on data_custom.yaml
+author: Ultralytics
+date: '2025-01-25T15:13:25.088090'
+version: 8.3.63
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: golf ball
+args:
+  batch: 1
+  half: false
