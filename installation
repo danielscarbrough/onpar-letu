@@ -19,6 +19,6 @@ pip install pillow --break-system-packages
 
 pip install sv_ttk --break-system-packages 
 
-pip install RPi.GPIO --break-system-packages 
+sudo apt install python3-lgpio
 
 echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc 
